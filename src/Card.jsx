@@ -2,9 +2,9 @@
 function Card(){
     return(
         <div className="card">
-            <img src="public/Ali.jpg" alt="" />
-            <h2>AliMukhtarli</h2>
-            <p>I'm mobile developer</p>
+            <img src="public/Ali.jpg" alt="" className="cardImage" />
+            <h2 className="cardTitle">AliMukhtarli</h2>
+            <p className="cardDescription">I'm mobile developer</p>
         </div>
     );
 }
