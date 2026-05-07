@@ -2,6 +2,7 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Food from "./Food.jsx";
 import Card from "./Card.jsx";
+import Button from "./Button.jsx";
 import "./index.css"
 function App() {
   return(
@@ -10,6 +11,11 @@ function App() {
         <Footer />
         <Food />
         <Card />
+        <Card />
+        <Card />
+        <Card />
+        <br />
+        <Button />
     </div>
   );
   
