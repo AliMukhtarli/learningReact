@@ -19,7 +19,10 @@ function App() {
         <br />
         
         <Button />
+        <br />
         <Student name="Ali" age={18} isStudent={true} />
+        <Student name="Aytac" age={18} isStudent={true} />
+        <Student name="Azade" age={42} isStudent={false} />
     </div>
   );
   

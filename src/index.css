@@ -36,3 +36,16 @@ border: none;
 cursor: pointer;
 padding: 10px 20px;
 }
+
+.student{
+  font: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  font-size: 2em;
+  display: inline-block;
+  padding: 10px;
+  margin:10px;
+}
+
+.student p{
+  margin:0px;
+}
