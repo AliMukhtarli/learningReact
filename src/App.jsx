@@ -26,7 +26,7 @@ function App() {
         <Student name="Azade" age={42} isStudent={false} />
         <Student />
         <br />
-        <UserGreeting isLoggedIn={true} userName="Ali"  />
+        <UserGreeting isLoggedIn={true} username="Ali"  />
     </div>
   );
   
