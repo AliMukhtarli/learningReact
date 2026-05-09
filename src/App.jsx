@@ -4,6 +4,7 @@ import Food from "./Food.jsx";
 import Card from "./Card.jsx";
 import Button from "./Button.jsx";
 import Student from "./Student.jsx";
+import UserGreeting from "./UserGreeting.jsx";
 import "./index.css"
 function App() {
   return(
@@ -24,6 +25,8 @@ function App() {
         <Student name="Aytac" age={18} isStudent={true} />
         <Student name="Azade" age={42} isStudent={false} />
         <Student />
+        <br />
+        <UserGreeting isLoggedIn={true} userName="Ali"  />
     </div>
   );
   
