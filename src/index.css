@@ -49,3 +49,23 @@ padding: 10px 20px;
 .student p{
   margin:0px;
 }
+
+.welcome-message{
+  background-color: green;
+  font-size: 2.5em;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.login-prompt{
+  background-color: red;
+  font-size: 2.5em;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 0px;
+  display: inline-block;
+}
