@@ -40,7 +40,7 @@ function App() {
         <Student />
         <br />
         <UserGreeting isLoggedIn={false} username="Ali"  />
-        {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
+        {fruits.length > 0 && <List items={fruits} category="Fruits"/> }
         {vegetables.length >0 ? <List items={vegetables} category="Vegetables"/>: null}
     </div>
   );
