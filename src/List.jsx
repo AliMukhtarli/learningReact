@@ -1,4 +1,4 @@
-function List({ items = [], category }) {
+function List({ items = [], category="Catagory" }) {
   return (
     <div>
       {category ? <h3>{category}</h3> : null}
