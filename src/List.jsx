@@ -1,10 +1,16 @@
-
-function List(){
-    const fruits = ['apple', 'orange','banana', 'coconut', 'pineapple'];
-
-    const listItems = fruits.map(fruit => <li>{fruit}</li>);
-
-    return(<ol>{listItems}</ol>)
+function List({ items = [], category }) {
+  return (
+    <div>
+      {category ? <h3>{category}</h3> : null}
+      <ul>
+        {items.map((item) => (
+          <li key={item.id}>
+            {item.name}: <b>{item.calories}</b>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 export default List;

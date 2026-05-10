@@ -8,6 +8,18 @@ import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 function App() {
+  const fruits = [  {id: 1,name: 'apple', calories: 95},
+                            {id: 2,name: 'orange', calories: 45},
+                            {id: 3,name: 'banana', calories: 105},
+                            {id: 4,name: 'coconut', calories: 150},
+                            {id: 5,name: 'pineapple', calories: 82}];
+
+    const vegetables =  [  {id: 6,name: 'apple', calories: 95},
+                                      {id: 7,name: 'orange', calories: 45},
+                                      {id: 8,name: 'banana', calories: 105},
+                                      {id: 9,name: 'coconut', calories: 150},
+                                      {id: 10,name: 'pineapple', calories: 82}];
+
   return(
     <div>
         <Header />
@@ -28,7 +40,8 @@ function App() {
         <Student />
         <br />
         <UserGreeting isLoggedIn={false} username="Ali"  />
-        <List />
+        {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
+        {vegetables.length >0 ? <List items={vegetables} category="Vegetables"/>: null}
     </div>
   );
   
