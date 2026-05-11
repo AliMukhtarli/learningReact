@@ -7,6 +7,7 @@ import Button from "./Button.jsx";
 import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
+import Counter from "./Counter.jsx";
 function App() {
   const fruits = [  {id: 1,name: 'apple', calories: 95},
                             {id: 2,name: 'orange', calories: 45},
@@ -42,6 +43,7 @@ function App() {
         <UserGreeting isLoggedIn={false} username="Ali"  />
         {fruits.length > 0 && <List items={fruits} category="Fruits"/> }
         {vegetables.length >0 ? <List items={vegetables} category="Vegetables"/>: null}
+        <Counter />
     </div>
   );
   
