@@ -15,7 +15,7 @@ function Button(){
 
 
     return(
-        <button className="button" onClick={ () => handleClick("Ali") }>Click me!😁</button>
+        <button className="button" onClick={ () => handleClick("Aytac") }>Click me!😁</button>
     );
 }
 
