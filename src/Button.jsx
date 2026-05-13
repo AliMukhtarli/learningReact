@@ -8,7 +8,7 @@ function Button(){
             count++;
             console.log(`${name} you clicked me ${count} times!`)
         }else{
-            console.log(`${name} stop cilcking me!!`)
+            console.log(`${name} stop cilcking me!!!`)
         }
      }
 
